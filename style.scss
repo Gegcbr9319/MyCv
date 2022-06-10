@@ -1,0 +1,145 @@
+html {
+    scroll-behavior: smooth;
+    width: 100%;
+    max-height: 100vh;
+    background-color: azure;
+}
+.body{
+    margin-left: auto;
+    margin-right: auto;
+    justify-items: center;
+    justify-content: center;
+    max-height: 100vh;
+    max-width: 50%;
+}
+.section {
+    margin: 0 auto;
+}
+/* .header {
+    display: flex;
+    justify-content: center;
+    background-color: wheat;
+} */
+/* .nav-ul{
+    display: flex;
+    
+    gap: 20px;
+    list-style-type: none;
+    font-size: 28px;
+    
+}
+.span-header{
+    color: rgba(39, 195, 187, 0.848);
+    transition: 0.3s;
+}
+.span-header:hover{
+    color: firebrick;
+} */
+.a {
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+}
+.a:hover {
+    color: yellow;
+}
+.main{
+display: flex;
+//flex-direction: column;
+//align-items: center;
+flex-wrap: wrap;
+
+}
+.about{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    //background-color: white;
+    background-color: rgb(233, 229, 229);
+    border-radius: 13em 0.5em/1em 0.5em;
+}
+.text-foto {
+    display: flex;
+    //margin: 0 auto;
+    margin-right: 25px;
+    
+}
+.my-photo{
+    width: 200px;
+    height: 210px;
+    border-radius: 50%;
+}
+.text {
+    text-align: center;
+    margin: 0 auto;
+}
+.about-text{
+    margin: 0 auto;
+    text-align: center;
+}
+.about-me{
+    margin: 0 auto;
+    width: 70%;
+}
+.h2-skills,
+.h2-education,
+.h2-project,
+.h2-language,
+.h2-about,
+.h2-education,
+.h2-contact {
+    text-align: center;
+    font-style: italic;
+}
+.h2-language {
+    text-align: end;
+    font-style: italic;
+}
+.h2-text {
+    color: darkorange;
+}
+.center {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 50px;
+    gap: 20px;
+    background-color: rgb(245, 127, 127);
+    margin-top: 20px;
+    border-radius: 8px;
+}
+.down {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 150px;
+    padding-left: 10px;
+    //margin-right: -80px;
+    margin-top: 20px;
+    background-color: rgb(245, 230, 115);
+    border-radius: 40px 10px;
+}
+.language {
+    text-align: end;
+}
+
+.h1-text{
+    font-style: italic;
+    font-size: 30px;
+    color: darkturquoise;
+}
+.contact,
+.skill,
+.project-ul {
+    font-size: 16px;
+}
+
+/* .contact-info,
+.skills,
+.project,
+.education,
+.language {
+    background-color: rgb(233, 229, 229);
+    border-radius: 5%;
+} */
